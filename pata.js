@@ -1,8 +1,11 @@
+SKOLENI JAVA SCRIPTU
+
+First lesson
+
 const myFirstConst = 'skoleni'
 console.log(myFirstConst)
 const mySecondConst = 'Patka'
 console.log(myFirstConst+mySecondConst)
-/*myFirstConst = 'Currys'*/
 let myFirstLet = 'style'
 console.log(myFirstLet)
 myFirstLet = 'England'
@@ -12,7 +15,8 @@ console.log(myFirstVar)
 myFirstVar = 'Ireland'
 console.log(myFirstVar)//Var is outdated, should not be used anymore
 
-/////////////functions//////////////////////
+-----------functions-----------
+
  1. function myFirstFunction(){
     console.log('hello')
   }
@@ -31,18 +35,20 @@ console.log(myFirstVar)//Var is outdated, should not be used anymore
     }    
     console.log(hello('Filip'))
 
---------------------------------------------------------------
-    function PhytagorasTheorem(a,b){   //c^2 = a^2 + b^2
+-------------------------------
+//homework c.1//    
+function PhytagorasTheorem(a,b){   //c^2 = a^2 + b^2
 
       let triangle = a*a + b*b  
       return triangle
       }
       console.log(PhytagorasTheorem(6,8))
 
-      //////////////////////////////////////////////////////////////////////////////////////////
-      /////////////////////////////////////////////////////////////////////////////////////////
+-------------------------------------------------------------------------------------------------------------------------------------
 
-      function getUserChoise (userInput){
+Second lesson
+
+  function getUserChoise (userInput){
          let result;
          userInput = userInput.toLowerCase()
          if(userInput === 'rock'|| userInput ==='paper'||userInput ==='scissors'){
@@ -50,7 +56,7 @@ console.log(myFirstVar)//Var is outdated, should not be used anymore
          }
          else {
          throw new Error('this is not valid point');
-         }}
+        }}
          //console.log (getUserChoise('scissors'))
          
          function getComputerChoise(){
@@ -90,4 +96,11 @@ console.log(myFirstVar)//Var is outdated, should not be used anymore
          }
          console.log(determineWiner(getUserChoise('rock'),getComputerChoise()))
 
-         //HomeWork - video od Patky , gitHub ucet zalozit, dnesni praci pushnu do GitHubu a link do confluence
+  //HomeWork c.2//
+   video od Patky , gitHub ucet zalozit, dnesni praci pushnu do GitHubu a link do confluence
+
+   ----------------------------------------------------------------------------------------------------------------------------
+
+   Third lesson
+
+   
