@@ -103,4 +103,3 @@ Second lesson
 
    Third lesson
 
-   
